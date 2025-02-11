@@ -5,7 +5,7 @@
     <FileVersion>8.0.0</FileVersion>
     <!-- The AssemblyVersion should only be updated on a Major version bump -->
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <DebugType>full</DebugType>
     <AssemblyName>Hudl.FFmpeg.Core</AssemblyName>
     <PackageId>Hudl.FFmpeg.Core</PackageId>
