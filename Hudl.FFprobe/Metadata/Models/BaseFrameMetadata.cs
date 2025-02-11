@@ -46,5 +46,5 @@ public class BaseFrameMetadata
     public TimeSpan BestEffortTimestampTime { get; set; }
 
     [JsonExtensionData] 
-    public Dictionary<string, JsonElement> AdditionalData { get; set; } = [];
+    public Dictionary<string, JsonElement> AdditionalData { get; set; } = new();
 }

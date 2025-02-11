@@ -66,5 +66,5 @@ public class BaseStreamMetadata
     public Dictionary<string, string> Tags { get; set; }
 
     [JsonExtensionData] 
-    public Dictionary<string, JsonElement> AdditionalData { get; set; } = [];
+    public Dictionary<string, JsonElement> AdditionalData { get; set; } = new();
 }
