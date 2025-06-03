@@ -47,7 +47,8 @@ namespace Hudl.FFmpeg.Command.StreamReaders
                 _stopSignal.Set();
             }
             catch
-            { }
+            { // wow this seems risky!
+             }
         }
     }
 
