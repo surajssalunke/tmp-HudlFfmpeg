@@ -10,4 +10,6 @@ namespace Hudl.FFmpeg.Attributes
     {
         public string Name { get; set; }
     }
+
+    // comment
 }
